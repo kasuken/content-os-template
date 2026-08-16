@@ -8,9 +8,10 @@ This repository is a reusable content workspace. Treat files in `system/` and ch
 2. `system/positioning.md`
 3. `system/style-guide.md`
 4. `system/writing.md`
-5. Relevant `channels/*/rules.md`
-6. Relevant `pillars/*`
-7. Relevant templates and workflows
+5. `.agents/skills/writing/SKILL.md` for reader-facing prose
+6. Relevant `channels/*/rules.md`
+7. Relevant `pillars/*`
+8. Relevant templates and workflows
 
 ## Default behavior
 
