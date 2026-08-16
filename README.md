@@ -14,7 +14,7 @@ A privacy-first workspace for planning, creating, reviewing, and publishing cont
 
 - `system/` — creator context, positioning, voice, and writing rules.
 - `pillars/` — durable themes you publish about.
-- `channels/` — channel-specific rules and content stages.
+- `channels/` — channel-specific rules and stages for ideas, drafts, and published work.
 - `templates/` — reusable content formats.
 - `workflows/` — repeatable creation and review processes.
 - `courses/`, `ebooks/`, `samples/` — larger content products and supporting examples.
@@ -27,3 +27,5 @@ Use `[TODO: ...]` for missing context, e.g. `[TODO: define target audience]`. De
 ## Working with AI
 
 Read [AGENTS.md](AGENTS.md) before asking an AI assistant to create or revise content. It explains the intended context order and quality checks.
+
+Compatible coding agents can also invoke the included workflow adapters with commands such as `IDEA`, `BRIEF`, `WRITE`, and `REVIEW`.

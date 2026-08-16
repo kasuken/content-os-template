@@ -24,3 +24,15 @@ This repository is a reusable content workspace. Treat files in `system/` and ch
 ## Quality gate
 
 Before marking a draft ready, check factual claims, audience fit, channel requirements, voice, links, and calls to action.
+
+## Commands and workflows
+
+Load the matching file in `workflows/` before acting. The `.agents/skills/` adapters expose the same commands to compatible coding agents.
+
+- `IDEA` — turn rough input into a structured idea; do not draft the final content.
+- `BRAINSTORM` — clarify an idea, audience, channel, and angle.
+- `BRIEF` — create an approved content brief before drafting.
+- `WRITE` — create a channel-ready draft from a brief.
+- `REVIEW` — assess a draft for voice, hook, clarity, specificity, and practical value.
+- `REPURPOSE` — adapt approved source material for another channel while preserving the message.
+- `ANALYZE` — extract evidence-based lessons from published content.
