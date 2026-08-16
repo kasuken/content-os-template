@@ -10,6 +10,20 @@ A privacy-first workspace for planning, creating, reviewing, and publishing cont
 4. Store ideas and drafts in the matching channel folder. Move only reviewed work to `published/`.
 5. Keep passwords, API keys, private customer data, and unredacted source material out of this repository.
 
+## Fast interactive setup with an AI assistant
+
+Instead of replacing every placeholder yourself, open this repository in a compatible AI coding assistant and paste the following prompt:
+
+```text
+Initialize this Content OS template for me interactively.
+
+First read README.md and AGENTS.md, then inspect the repository structure and all `[TODO: ...]` placeholders. Ask me focused questions one at a time, in the order that gives you the most useful context: creator or brand, audience, positioning, voice, content pillars, active channels, and publishing workflow.
+
+After I answer, propose concise changes and wait for confirmation before editing files. Replace only placeholders that my answers support; never invent facts, achievements, metrics, quotes, personal details, or source links. Keep the repository private unless I explicitly ask otherwise. Do not add credentials, customer information, or unredacted source material.
+
+When complete, summarize what you initialized, list placeholders that remain, and suggest the first content brief to create.
+```
+
 ## Structure
 
 - `system/` — creator context, positioning, voice, and writing rules.
