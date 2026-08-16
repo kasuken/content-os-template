@@ -1,0 +1,9 @@
+# Local and sensitive files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.secret
+node_modules/
+.DS_Store
